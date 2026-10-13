@@ -1,4 +1,4 @@
-# Module 7 — Containers with Docker
+# Containers with Docker
 
 This module covers containers and Docker end to end: what containers are and how they
 differ from virtual machines, the main Docker and debugging commands, running an
@@ -60,15 +60,15 @@ commands are `docker compose ...` with a space.
 
 ## Projects
 
-| Folder                                    | Project                                            | Description                                                                                                      |
-| ----------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `01-docker-local-development`             | Use Docker for local development                   | Run MongoDB and Mongo Express as containers on a user-defined network and connect a host-run Node.js app to them |
-| `02-docker-compose-mongo-mongoexpress`    | Docker Compose — run multiple containers           | Replace the two `docker run` commands with a single Docker Compose file                                          |
-| `03-dockerize-nodejs-app`                 | Dockerize the Node.js application                  | Write a Dockerfile and build the application into a custom image                                                 |
-| `04-nexus-docker-hosted-repository`       | Create a Docker repository on Nexus and push to it | Configure a Docker hosted repository, role and registry port on Nexus, then push the image                       |
-| `05-deploy-with-docker-compose-on-server` | Deploy the application with Docker Compose         | Deploy the three-container stack, pulling the app image from the private registry                                |
-| `06-docker-volumes-persistence`           | Persist data with Docker volumes                   | Attach a named volume to MongoDB so data survives container recreation                                           |
-| `07-nexus-as-docker-container`            | Deploy Nexus as a Docker container                 | Run Nexus itself as a container on a cloud server with a named volume                                            |
+| Folder                                                                                | Project                                            | Description                                                                                                      |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [`01-docker-local-development`](01-docker-local-development/)                         | Use Docker for local development                   | Run MongoDB and Mongo Express as containers on a user-defined network and connect a host-run Node.js app to them |
+| [`02-docker-compose-mongo-mongoexpress`](02-docker-compose-mongo-mongoexpress/)       | Docker Compose — run multiple containers           | Replace the two `docker run` commands with a single Docker Compose file                                          |
+| [`03-dockerize-nodejs-app`](03-dockerize-nodejs-app/)                                 | Dockerize the Node.js application                  | Write a Dockerfile and build the application into a custom image                                                 |
+| [`04-nexus-docker-hosted-repository`](04-nexus-docker-hosted-repository/)             | Create a Docker repository on Nexus and push to it | Configure a Docker hosted repository, role and registry port on Nexus, then push the image                       |
+| [`05-deploy-with-docker-compose-on-server`](05-deploy-with-docker-compose-on-server/) | Deploy the application with Docker Compose         | Deploy the three-container stack, pulling the app image from the private registry                                |
+| [`06-docker-volumes-persistence`](06-docker-volumes-persistence/)                     | Persist data with Docker volumes                   | Attach a named volume to MongoDB so data survives container recreation                                           |
+| [`07-nexus-as-docker-container`](07-nexus-as-docker-container/)                       | Deploy Nexus as a Docker container                 | Run Nexus itself as a container on a cloud server with a named volume                                            |
 
 ## Key learnings
 

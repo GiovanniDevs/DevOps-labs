@@ -1,6 +1,6 @@
 # Create Server and Deploy Application on DigitalOcean
 
-> **Status:** Complete. Hands-on follow-along project from the TechWorld with Nana DevOps Bootcamp (Module 5 — Cloud & Infrastructure as a Service Basics). This folder is documentation-only: the application was the instructor's demo project and is not committed here.
+> Hands-on follow-along project from the TechWorld with Nana DevOps Bootcamp (Module 5 — Cloud & Infrastructure as a Service Basics). This folder is documentation-only: the application was the instructor's demo project and is not committed here.
 
 ## Overview
 
