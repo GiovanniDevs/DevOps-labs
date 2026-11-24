@@ -38,11 +38,11 @@ All five projects share one environment, described once here rather than in each
 
 | Folder                             | Project                         | Description                                                                                                                         |
 | ---------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 01-install-jenkins-on-digitalocean | Install Jenkins on DigitalOcean | Ubuntu droplet, firewall, Docker, and Jenkins running as a container on a persistent volume                                         |
-| 02-ci-pipeline-with-jenkinsfile    | CI pipeline with Jenkinsfile    | Build tools, Docker access and credentials, then the same CI workflow as a freestyle job, a pipeline job and a multibranch pipeline |
-| 03-jenkins-shared-library          | Jenkins Shared Library          | Common build and Docker logic extracted into a separate Groovy library repository and imported by the Jenkinsfile                   |
-| 04-webhook-trigger-ci-pipeline     | Webhook trigger                 | Push-triggered builds for both a regular pipeline and a multibranch pipeline, configured for GitHub                                 |
-| 05-dynamic-version-increment       | Dynamic version increment       | Automatic patch bump, versioned image tags, version committed back to Git, and build-loop prevention                                |
+| [01-install-jenkins-on-digitalocean](./01-install-jenkins-on-digitalocean/) | Install Jenkins on DigitalOcean | Ubuntu droplet, firewall, Docker, and Jenkins running as a container on a persistent volume                                         |
+| [02-ci-pipeline-with-jenkinsfile](./02-ci-pipeline-with-jenkinsfile/)       | CI pipeline with Jenkinsfile    | Build tools, Docker access and credentials, then the same CI workflow as a freestyle job, a pipeline job and a multibranch pipeline |
+| [03-jenkins-shared-library](./03-jenkins-shared-library/)                   | Jenkins Shared Library          | Common build and Docker logic extracted into a separate Groovy library repository and imported by the Jenkinsfile                   |
+| [04-webhook-trigger-ci-pipeline](./04-webhook-trigger-ci-pipeline/)         | Webhook trigger                 | Push-triggered builds for both a regular pipeline and a multibranch pipeline, configured for GitHub                                 |
+| [05-dynamic-version-increment](./05-dynamic-version-increment/)             | Dynamic version increment       | Automatic patch bump, versioned image tags, version committed back to Git, and build-loop prevention                                |
 
 ## Key learnings
 
